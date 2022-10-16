@@ -14,4 +14,7 @@ Bir rezervasyon isteği içinde birden fazla kişi olabilir.
 Rezervasyon isteği yapılırken, kişilerin farklı vagonlara yerleşip yerleştirilemeyeceği belirtilir. Bazı rezervasyonlarda tüm yolcuların aynı vagonda olması istenilirken, bazılarında farklı vagonlar da kabul edilebilir.
 Rezervasyon yapılabilir durumdaysa, API hangi vagonlara kaçar kişi yerleşeceği bilgisini dönecektir.
 
+**Train List**
+![Screenshot_10](https://user-images.githubusercontent.com/105590511/196028521-d988aa64-4833-4f25-846b-f30f89a8eacd.png)
 
+                    
