@@ -19,4 +19,5 @@ Rezervasyon yapılabilir durumdaysa, API hangi vagonlara kaçar kişi yerleşece
 
 ![Screenshot_10](https://user-images.githubusercontent.com/105590511/196028521-d988aa64-4833-4f25-846b-f30f89a8eacd.png)
 
-                    
+**Post İşlemi**
+Tren seçimi yapılabilir ve bu trene ait seçilen vagonların isimleri girilmelidir. Vagonun kapasite ve dolu koltuk sayısının girilmesine gerek yoktur çünkü vagon isminden doğru veriler gelmektedir. Kişi sayısının girilmesi zorunludur. Farklı vagonda olma durumu aktif olduğunda istenilen vagonların isimleri liste halinde girilmelidir. 
