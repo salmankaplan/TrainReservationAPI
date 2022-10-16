@@ -8,10 +8,15 @@ HTTP API'a tren bilgileri ve kaç kişilik rezervasyon istenildiği gönderilece
 **Gereksinimler**
 
 Bir tren içinde birden fazla vagon bulunabilir.
+
 Her vagonun farklı kişi kapasitesi olabilir.
+
 Online rezervasyonlarda, bir vagonun doluluk kapasitesi %70'i geçmemelidir. Yani vagon kapasitesi 100 ise ve 70 koltuk dolu ise, o vagona rezervasyon yapılamaz.
 Bir rezervasyon isteği içinde birden fazla kişi olabilir.
-Rezervasyon isteği yapılırken, kişilerin farklı vagonlara yerleşip yerleştirilemeyeceği belirtilir. Bazı rezervasyonlarda tüm yolcuların aynı vagonda olması istenilirken, bazılarında farklı vagonlar da kabul edilebilir.
+
+Rezervasyon isteği yapılırken, kişilerin farklı vagonlara yerleşip yerleştirilemeyeceği belirtilir. Bazı rezervasyonlarda tüm yolcuların aynı vagonda olması 
+istenilirken, bazılarında farklı vagonlar da kabul edilebilir.
+
 Rezervasyon yapılabilir durumdaysa, API hangi vagonlara kaçar kişi yerleşeceği bilgisini dönecektir.
 
 
@@ -22,3 +27,5 @@ Rezervasyon yapılabilir durumdaysa, API hangi vagonlara kaçar kişi yerleşece
 **Post İşlemi**
 
 Tren seçimi yapılabilir ve bu trene ait seçilen vagonların isimleri girilmelidir. Vagonun kapasite ve dolu koltuk sayısının girilmesine gerek yoktur çünkü vagon isminden doğru veriler gelmektedir. Kişi sayısının girilmesi zorunludur. Farklı vagonda olma durumu aktif olduğunda istenilen vagonların isimleri liste halinde girilmelidir. 
+
+![Screenshot_11](https://user-images.githubusercontent.com/105590511/196029111-37eab7c1-ffdf-43d0-bf3d-d7ad1f1113a1.png)
